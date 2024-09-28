@@ -59,6 +59,34 @@ List may be out of date, trust the development branch *package.json*
 3. `npm install`
 4. `react-native run-ios` for iOS simulation
 
+## Running the Application Locally
+To run the application locally, follow these steps:
+
+1. **Clone the repository**
+   ```sh
+   git clone https://github.com/pr-pilot-labs/Conways.git
+   ```
+
+2. **Navigate to the project directory**
+   ```sh
+   cd Conways
+   ```
+
+3. **Install the dependencies**
+   ```sh
+   npm install
+   ```
+
+4. **Start the application**
+   - For iOS:
+     ```sh
+     npx react-native run-ios
+     ```
+   - For Android:
+     ```sh
+     npx react-native run-android
+     ```
+
 ## Running Tests
 Package.json should contain a script specification for npm allowing you to run `npm test`
 to run the test suite with Mocha and Enzyme. More sophisticated testing (of game logic) is unsupported
